@@ -1,0 +1,150 @@
+/* entire page */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #242C32;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-bottom: 30px;
+}
+
+h2 {
+  color: #91B2C8;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+h3 {
+  color: #91B2C8;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+a {
+  color: #91B2C8;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #C8A791;
+}
+
+/* default div settings */
+div {
+  background-color: #FAFAFA;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* section 1 - Greeting */
+.element1 {
+  color: #91B2C8;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#p1 {
+  color: #495964;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* section 2 - About Me */
+.element2 {
+  background-color: #FFFFFF;
+}
+
+.element2image {
+  height: 200px;
+  width: 200px;
+  display: block;
+  padding-top: 30px;
+  margin: 0 auto 0 auto;
+}
+
+/* section 3 */
+.element3 {
+  padding-bottom: 60px;
+}
+
+/* section 4 - contact */
+.contact1 {
+  background-color: #FFFFFF;
+}
+
+/* button styling */
+.button {
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: #91B2C8;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 30px auto 30px auto;
+}
+
+.button span {
+  cursor: pointer;
+  position: center;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: center;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* project image styling */
+.hpimage {
+  display: inline-block;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border-radius: 6px;
+  margin: auto;
+  width: 33%;
+  height: auto;
+}
+
+.footer {
+  text-align: center;
+  margin: 0 auto 0 auto;
+  padding-top: 50px;
+}
+.footer-link {
+  text-align: center;
+  margin: 40 auto 40 auto;
+}
